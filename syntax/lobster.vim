@@ -51,7 +51,7 @@ hi def link    lobsterIdentifier    lobsterBoolean
 " Operators
 
 " the wordy ones
-syn match lobsterOperator /is\|not\|and\|or/
+syn match lobsterOperator /\<(is\|not\|and\|or)\>/
 
 " match single-char operators:          - + * % < > ! =
 " and corresponding two-char operators: -= += %= <= >= != &= |= ^= *= ==
